@@ -17,9 +17,15 @@
 print("hello world!")
 
 '''
- There's 365 days in one year. 60 mins in one hour. 60 seconds in one minute. 
+ There's 365 days in one year. 
  
-60 seconds in one minute. 60sec * 60min = 3,600 seconds. So there's 3,600 seconds in 1 hour. 
+60 mins in one hour. 
+
+60 seconds in one minute. 
+
+60sec * 60min = 3,600 seconds. 
+
+So there's 3,600 seconds in 1 hour. 
 
 24 hours in 1 day 
 
