@@ -15,4 +15,11 @@ There's 365 days in one year. 60 mins in one hour. 60 seconds in one minute.
 86,400sec  * 365days  = 31,536,000 seconds in one year. Not counting leap year
 '''
 
-print((60*60) * 24 * 365)
+# print((60*60) * 24 * 365)
+
+seconds = 60
+minutes = 60
+day = 24
+year = 365
+
+print((seconds * minutes) * day * year)
