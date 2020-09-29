@@ -6,14 +6,14 @@ Take in the following three values from the user:
 Print the future values to the console.
 '''
 
-invest = int(input('How much are you investing?')) # $100
-irate = float(input('What is the interest rate?')) #.10
-irate1 = invest * irate # $10
 
-total = irate1 + invest
+invest_amount = int(input("How much are you investing? "))
 
-print(total)
+interest_rate = float(input("what's the interest rate? "))
 
+years_investing = int(input("number of years youre  invest? "))
 
-time = int(input('How many years will you be investing?'))
+amount_earned = invest_amount * interest_rate  # $10.00
+
+total_earnings = amount_earned + invest_amount  # $110
 
