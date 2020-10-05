@@ -16,6 +16,7 @@ for a in range(1, 11):                           # gives you 1 through 10
     num_list.append(number)                      # adds users input to the list() variable "my_list"
 
 # print result
-print(num_list[1:11:2])
-print(num_list[-2:-11:-2])
+#print(num_list[1:11:2], (num_list[-2:-11:-2]))
 
+
+print(list((num_list[1:11:2], (num_list[-2:-11:-2]))))

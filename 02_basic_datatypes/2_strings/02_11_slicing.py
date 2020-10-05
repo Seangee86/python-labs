@@ -10,7 +10,7 @@ For example: ryan -> yanray, caden -> adencay
 name = input("What is your name? ")
 
 # move first letter to the end. Add "ay" to the end
-pig = name[1:] + name[0]
+pig = name[1:] + name[0] + "ay"
 
 # make  a variable
 
