@@ -20,3 +20,4 @@ for a in range(1, 11):                           # gives you 1 through 10
 
 
 print(list((num_list[1:11:2], (num_list[-2:-11:-2]))))
+
