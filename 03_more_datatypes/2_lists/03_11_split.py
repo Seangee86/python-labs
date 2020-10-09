@@ -6,13 +6,19 @@ occurrences.
 
 # string from user
 #string = input("write something: ")
-string2 = "You are a super super cool cat"     # temp string
+string2 = "You are a super super super cool cat and you are nice"     # temp string
 
 # with the split() method, creates a list of each word
 string_list = string2.split()
 
-# create an empty list
+
 word_count = []
+
+# get distinct words
+
+#
+
+
 
 for w in string_list:
     word_count.append(string_list.count(w))
