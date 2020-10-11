@@ -4,5 +4,9 @@ For example:
 
 input = "hello world"
 result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
-
 '''
+
+user = input("hello world")
+
+result = []
+
