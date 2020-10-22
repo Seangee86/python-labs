@@ -14,4 +14,4 @@ unique_list = []
 items = list(set(list_))
 
 num = list_.count(6)
-print(num)
+
