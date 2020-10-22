@@ -16,10 +16,6 @@ word_count = []
 
 # get distinct words
 
-#
-
-
-
 for w in string_list:
     word_count.append(string_list.count(w))
 
