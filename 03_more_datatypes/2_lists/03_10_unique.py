@@ -11,7 +11,13 @@ unique_list = []
 
 # get distinct items
 
-items = list(set(list_))
+# items = list(set(list_))
 
-num = list_.count(6)
+# num = list_.count(6)
+
+for i in list_:
+    if i not in list_:
+        unique_list.append(i)
+
+print(unique_list)
 
