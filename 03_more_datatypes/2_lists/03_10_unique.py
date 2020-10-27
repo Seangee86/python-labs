@@ -7,17 +7,18 @@ unique : if an item doesnt show up more than once
 '''
 list_ = [1, 2, 6, 55, 2, 'hi', 4, 6, 1, 13, 2]
 
-unique_list = []
-
-for i in list_:
-    if i not in unique_list:
-        unique_list.append(i)
-
-print(unique_list)
-
 
 # get distinct items
+items = list(set(list_))
 
-# items = list(set(list_))
+num = list_.count([])
 
-# num = list_.count(6)
+
+list_ = [1, 2, 6, 55, 2, 'hi', 4, 6, 1, 13, 2]
+unique_list = []
+
+for i in items:
+    if i == num:
+        unique_list.append(i)
+print(unique_list)
+
